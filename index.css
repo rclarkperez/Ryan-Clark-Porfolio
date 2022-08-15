@@ -1,0 +1,212 @@
+#navbar {
+    background-color:#e0e0e0;
+    position: fixed;
+    text-align:right;
+    width:100%;
+    height:50px;
+    padding-top:20px;
+    margin-top:-442px;
+  }
+  #internal-link {
+    color: #b5651d;
+    font-size: 25px;
+    text-decoration:none;
+    padding:30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  #internal-link:hover {
+    top: 8px;
+    
+  }
+  body {
+    background-image:     url(https://cupofcoffee.biz/storage/2020/01/espresso-coffee-e1580122222726-1024x819.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0px;
+    height:60%;
+  }
+  #welcome-section {
+    height: 100vh;
+    
+  }
+  #welcome-header {
+    height: 400px;
+    margin-top:442px;
+    text-align:center;
+  }
+  #welcome-title {
+    font-size:50px;
+    text-align:center;
+    color:#eee;
+    background:#1c3448;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -30px;
+    padding-bottom:25px;
+    padding-top:2px;
+    border-top: 2px solid black;
+    border-radius: 4px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  #welcome-sub-heading {
+    text-align:center;
+    color:#eee;
+    background:#1c3448;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:3px;  
+    padding-bottom:15px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 4px;
+  }
+  #about-section {
+    padding-top:10%;
+  }
+  #about-title {
+    font-size: 28px;
+    color:white;
+    background:#1c3448;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:-1px;  
+    margin-bottom:7%; 
+    padding-bottom:40px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+  }
+  #about{
+    color:#313639;
+    background:#e0e0e0;
+    margin-left:12%;
+    margin-right:13%;
+    margin-top:-1px; 
+    padding-bottom:40px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+  }
+  #projects {
+    padding-top:15%;
+  }
+  #Webpage-Project-Title {
+    font-size: 28px;
+    text-align:center;
+    color:white;
+    background:#1c3448;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:-1px;  
+    margin-bottom:3%; 
+    padding-bottom:4%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding-top:5%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+  }
+  
+  #project-image {
+    font-size: 18px;
+    text-decoration:none;
+    text-align:center;
+    color:#313639;
+    padding-top: 3%;
+    margin-left:12%;
+    width:75%;
+    
+    
+  }
+  #project-title {
+    font-size: 20px;
+    text-decoration:none;
+    text-align:center;
+    background-color:#e0e0e0;
+    color:#313639;
+    margin-top:-5px;
+    margin-bottom:15%;
+    margin-left:12%;
+    margin-right:13%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 4px;
+  }
+  #project-title:hover {
+    background:#b5651d;
+    color: white;
+  }
+  #link-header {
+    left-margin:center;
+  }
+  #links {
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    background-color: #1c3448;
+    padding-top:1px;
+    font-size: 23px;
+    text-decoration:none;
+  }
+  #profile-link {
+    padding:1%;
+    font-size:25px;
+    margin-right:2%;
+    margin-left:2%;
+    color:white;
+    width:100%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  #profile-link:hover {
+    top: -8px;
+  }
+  @media screen and (max-width:700px) {
+    #links {
+     width:100%;
+     height: 15%;
+     flex-direction:column;
+     text-align: center;
+     padding-right:5%;
+    }
+    #profile-link {
+     width:100%;
+     height: 15%;
+     flex-direction:column;
+     text-align: center;
+     margin:0%;
+     padding:0%
+    }
+    #icon {
+     width:100%;
+     height: 15%;
+     flex-direction:column;
+     text-align: center;
+     margin:0%;
+     padding-top:3%
+    }
+  }
+  #icon {
+    padding-right: 1%;
+  }
+  a {
+    text-decoration: none;
+  }
