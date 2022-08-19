@@ -85,6 +85,20 @@
     border-left: 2px solid black;
     border-top: 2px solid black;
   }
+  #profile {
+    height: 60%;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    border-radius: 1vh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+  }
   #about{
     color:#313639;
     background:#e0e0e0;
