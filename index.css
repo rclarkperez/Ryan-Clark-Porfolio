@@ -178,7 +178,11 @@
   }
   #profile-link:hover {
     top: -8px;
-  }
+    }
+   a {
+    text-decoration: none;
+    }
+
   @media screen and (max-width:700px) {
     #links {
      width:100%;
@@ -203,8 +207,5 @@
      margin:0%;
      padding-top:3%;
      padding-right: 1%;
-    }
-    a {
-    text-decoration: none;
     }
 }
