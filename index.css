@@ -201,12 +201,10 @@
      flex-direction:column;
      text-align: center;
      margin:0%;
-     padding-top:3%
+     padding-top:3%;
+     padding-right: 1%;
     }
-  }
-  #icon {
-    padding-right: 1%;
-  }
-  a {
+    a {
     text-decoration: none;
-  }
+    }
+}
