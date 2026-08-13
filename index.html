@@ -1,79 +1,106 @@
-<main>
-    <head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ryan A. Clark — full-stack software engineer creating clear, useful, and dependable digital experiences.">
+    <title>Ryan A. Clark — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
-    </head>
-    
-    <nav id="navbar">
-      <a href="#about-section" id="internal-link">About</a>
-      <a href="#projects" id="internal-link">Projects</a>
-      <a href="#links" id="internal-link">Contact</a>
-    </nav>
-   
-    <body>
-      <section id="welcome-section" class="main-section">
-        <header id="welcome-header">
-          <h1 id="welcome-title">Ryan A. Clark</h1>
-          <h4 id="welcome-sub-heading"> aspiring software developer</h4>
-        </header>
-      </section>
-      
-      <section id="about-section" class="main-section">
-        <h2 id="about-title">About</h2>
-        <img class="center" id="profile" target="blank" 
-        src="https://lh3.googleusercontent.com/BbiUbaVP4AUIP2qKMsYOT2yxrL5OL0VGb250LkWqLG9pC3DvdjyGbcLOC2b_3xt90bplUk0pZFvsV1Y8IqNKxVjROGnl_DKVJAHbXrioC707TBMF6-jQKqqGkZqCG-I2Djw4RWz3=w2400"></img>
-        <p id="about">
-            Being furloughed during the Spring of 2020 was one the lowest point of my career. 
-            Like many people at that time, 
-            I had a lot of time to slow down and think about what I wanted out of my life.
-            I ended up discovering a geniune love of programming and enrolled in a University program. 
-            I am now a current student at Oregon State University 
-            finishing my Bachelor's degree in Computer Science with an expected graduation in Winter of 2023. 
-            My current skillset is in React, JavaScript, Python, express, node, HTML and CSS, but I am always learning!<p>
-        
-      </section>
-      
-      
-       <section id="projects" class="main-section">
-        <header>
-          <h2 id="Webpage-Project-Title">Projects</h2>
-        </header>
-           
-          <div class="project-tile" >
-           <a target="_blank" href="https://github.com/rclarkperez/Law-Office-Website">
-             <img id="project-image" src="https://lh3.googleusercontent.com/7re1eXe617_xG5-mu7kbsjEahRYHSoqTjFddKbpP_t0Cs1HF7jIfr735raz51eIZi9r8hsDFnWPz_9NXEI3CPZnfV6n7ZrVuZo9P3CZdXLmkdssCBTzvEfXwx_PDGX9w4YMOeunx=w2400" alt="Law_Office_Screen_Shot">
-               <p id="project-title" >
-              Law Office Website (React, JavaScript, HTML, CSS)
-               </p>
-           </a>
-         </div>
-
-         <div class="project-tile">
-          <a target="_blank" href="https://github.com/rclarkperez/TheBurnBuddy">
-            <img id="project-image" src="Burn Buddy App.png" alt="Product_Page_Screen_Shot"/> 
-           <p id="project-title">The Burn Buddy Exercise Website (MongoDB, Express, React, Node)
-           </p>
-         </a>
-      </div>
-
-         <div class="project-tile">
-            <a target="_blank" href="https://github.com/rclarkperez/Hashtable">
-              <img id="project-image" src="https://lh3.googleusercontent.com/jRRK3wJ4PjG7xbd_duq_UDpBpjQ5Mo37e_W5LZ-JSbsbjYVINlauwc2vxQR02GLEnp5qTnk5cnbeYTj1rSEej5EuBFOr-WNu0syHAqB9mXvwdaM9nNfJI7Gd6LZkSew51wapOgn8=w2400" alt="Generic_Code_Screen_Shot"/> 
-             <p id="project-title">Custom Hash Table Function (Python)
-             </p>
-           </a>
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav id="navbar" aria-label="Primary">
+        <a class="brand" href="#welcome-section" aria-label="Ryan A. Clark home"><span>R</span> Ryan Clark</a>
+        <div class="nav-links">
+          <a href="#about-section" class="internal-link">About</a>
+          <a href="#projects" class="internal-link">Work</a>
+          <a href="mailto:rclark.perez@outlook.com?subject=Résumé%20request" class="internal-link">Résumé</a>
+          <a href="#links" class="nav-cta">Let’s talk <span aria-hidden="true">↗</span></a>
         </div>
-          
-       
-        <section id="links" class="main-section">
-          <header id=link-header>
-            <h1>Contact</h1>
-          </header>
-                     
-          <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/ryan-clark-308996174/"><i class="fa fa-linkedin-square" id="icon"></i>LinkedIn</a>
-           
-          <a id="profile-link" target="_blank" href="https://github.com/rclarkperez"><i class="fa fa-github" id="icon"></i>Github</a>
-      
+      </nav>
+
+      <main>
+        <section id="welcome-section" class="hero" aria-labelledby="welcome-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> Software engineer · Bella Vista, Arkansas</p>
+            <h1 id="welcome-title">Building digital<br><em>experiences</em> that work.</h1>
+            <p class="hero-intro">I’m Ryan Clark, a software engineer who builds reliable websites, applications, and the systems behind them.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">See my work <span>↓</span></a>
+              <a class="text-link" href="#about-section">More about me <span>↗</span></a>
+            </div>
+          </div>
+          <div class="hero-note" aria-label="Location and specialties">
+            <span class="note-label">Currently based in</span>
+            <strong>Bella Vista, Arkansas</strong>
+            <span class="note-rule"></span>
+            <span class="note-label">Focused on</span>
+            <strong>Full-stack · React · TypeScript · .NET · Azure</strong>
+          </div>
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-code-mark" aria-hidden="true"><span>&lt;/&gt;</span><small>build · test · ship</small></div>
+          <div class="hero-cross cross-one">+</div>
+          <div class="hero-cross cross-two">+</div>
         </section>
-    </body>
-  </main>
+
+        <section class="capability-strip" aria-label="Capabilities">
+          <span>What I bring</span><b>Full-stack engineering</b><b>React & TypeScript</b><b>.NET & backend systems</b><b>Azure & cloud services</b><b>Always learning</b>
+        </section>
+
+        <section id="about-section" class="about-section content-section">
+          <div class="section-label">01 / About</div>
+          <div class="about-grid">
+            <div class="about-heading"><div class="profile-photo-wrap"><img src="profile-photo.jpeg" alt="Ryan Clark outdoors wearing a navy jacket"><span>Ryan Clark</span></div><h2>Good work starts<br>with <em>curiosity.</em></h2></div>
+            <div class="about-body">
+              <p>I found programming after being furloughed from my hospital financial assistance job during the COVID-19 pandemic. I was looking for a new direction, and it quickly became something I genuinely enjoyed. I went back to school, earned my B.S. in Computer Science from Oregon State University, and now work as a full-stack engineer at Tandem Diabetes Care.</p>
+              <p>Most of my work is with C#/.NET, React, TypeScript, SQL Server, Azure, and automated testing. When I’m away from my computer, I’m usually brewing specialty coffee, out for a jog, or spending time outside with my daughter.</p>
+              <div class="skill-list"><span>C# / .NET Core</span><span>React</span><span>TypeScript</span><span>Azure</span><span>SQL Server</span><span>Automated testing</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="projects-section content-section">
+          <div class="section-topline"><div class="section-label">02 / Selected work</div><span>Three projects, different audiences, one approach: make it useful.</span></div>
+          <div class="projects-grid">
+            <article class="project-card project-card-featured project-card-wip">
+              <div class="project-card-link">
+                <div class="project-visual screenshot-visual"><img class="project-screenshot" src="assets/legal-guardian-survey-home.png" alt="Legal Guardian Survey App homepage"></div>
+                <div class="project-info"><div><p class="project-index">01 — WORK IN PROGRESS</p><h3>Legal Guardian Survey App</h3><p>A full-stack survey workflow with a React and TypeScript frontend for collecting guardianship information, plus a Node.js backend planned for application logic, persistence, and PDF generation.</p></div></div>
+                <div class="tag-row"><span>React</span><span>TypeScript</span><span>Node.js</span><span>PDF generation</span></div>
+                <div class="project-actions"><a href="https://legal-guardian-survey.vercel.app/" target="_blank" rel="noopener noreferrer">Live prototype <span>↗</span></a><a href="https://github.com/rclarkperez/LegalGuardianSurvey" target="_blank" rel="noopener noreferrer">GitHub code <span>↗</span></a></div>
+                <div class="project-status"><span class="status-dot"></span> Currently in development</div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-link">
+                <div class="project-visual screenshot-visual"><img class="project-screenshot" src="assets/build-outdoor-space-home.png" alt="Build Outdoor Space Solutions homepage"></div>
+                <div class="project-info"><div><p class="project-index">02 — FAMILY CONSTRUCTION</p><h3>Build Outdoors Space</h3><p>A responsive construction website with service information, gallery content, reviews, and contact handling.</p></div></div>
+                <div class="tag-row"><span>React</span><span>JavaScript</span><span>Responsive UI</span></div>
+                <div class="project-actions"><a href="https://best-excavation.netlify.app/" target="_blank" rel="noopener noreferrer">Live website <span>↗</span></a><a href="https://github.com/rclarkperez/BuildOutdoorsSpace" target="_blank" rel="noopener noreferrer">GitHub code <span>↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-link">
+                <div class="project-visual screenshot-visual"><img class="project-screenshot" src="assets/jeanette-johnson-law-home.png" alt="Jeanette M. Johnson Law homepage"></div>
+                <div class="project-info"><div><p class="project-index">03 — PROFESSIONAL SERVICES</p><h3>Law Office Website</h3><p>A responsive law-office prototype with service information, contact handling, and location-aware visitor details.</p></div></div>
+                <div class="tag-row"><span>React</span><span>JavaScript</span><span>UI Design</span></div>
+                <div class="project-actions"><a href="https://jolly-lollipop-6b1f86.netlify.app/" target="_blank" rel="noopener noreferrer">Live website <span>↗</span></a><a href="https://github.com/rclarkperez/Law-Office-Website" target="_blank" rel="noopener noreferrer">GitHub code <span>↗</span></a></div>
+              </div>
+            </article>
+          </div>
+          <div class="project-footnote"><span>Want to see more of the code?</span><a href="https://github.com/rclarkperez" target="_blank" rel="noopener noreferrer">Visit my GitHub ↗</a></div>
+        </section>
+
+        <section id="links" class="contact-section">
+          <div class="contact-inner"><div class="section-label">03 / Contact</div><h2>Have a project?<br><em>Let’s talk.</em></h2><p>If you’re working on a website, application, or product idea, I’d be happy to hear about it.</p><div class="contact-links"><a class="button button-primary" href="mailto:rclark.perez@outlook.com">Email me <span aria-hidden="true">↗</span></a><a class="social-link" href="mailto:rclark.perez@outlook.com?subject=Résumé%20request">Request résumé</a><a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryan-clark-308996174/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a><a class="social-link" target="_blank" rel="noopener noreferrer" href="https://github.com/rclarkperez"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></div></div>
+        </section>
+      </main>
+      <footer><span>© 2026 Ryan A. Clark</span><span>Designed & built with care</span></footer>
+    </div>
+  </body>
+</html>
