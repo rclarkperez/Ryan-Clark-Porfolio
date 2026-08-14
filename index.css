@@ -536,6 +536,13 @@ footer {
   }
   .projects-grid {
     gap: 20px;
+    width: 100%;
+    min-width: 0;
+  }
+  .project-card,
+  .project-card-link {
+    width: 100%;
+    min-width: 0;
   }
   .project-visual {
     height: 280px;
@@ -615,12 +622,17 @@ footer {
   }
   .project-info {
     padding: 23px 19px 14px;
+    min-width: 0;
   }
   .tag-row {
     padding: 0 19px 21px;
+    flex-wrap: wrap;
   }
   .project-visual {
     height: 235px;
+  }
+  .project-screenshot {
+    max-width: 100%;
   }
   .visual-window strong {
     font-size: 1.7rem;
@@ -868,6 +880,18 @@ footer {
     padding-left: 19px;
     padding-right: 19px;
     flex-wrap: wrap;
+  }
+  .project-actions a {
+    min-width: 0;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .project-info h3,
+  .project-info p,
+  .tag-row,
+  .project-status {
+    overflow-wrap: anywhere;
   }
 }
 
