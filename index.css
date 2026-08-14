@@ -576,9 +576,11 @@ footer {
     left: 0;
     right: auto;
     bottom: 45px;
-    width: 100%;
-    grid-template-columns: auto 1fr;
-    align-items: center;
+    width: min(100%, 300px);
+    grid-template-columns: 1fr;
+    align-items: start;
+    padding: 12px 0;
+    text-align: left;
   }
   .hero-note .note-rule {
     display: none;
