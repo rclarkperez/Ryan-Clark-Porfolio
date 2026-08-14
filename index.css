@@ -527,6 +527,11 @@ footer {
   .hero-orbit {
     right: -240px;
   }
+  .hero-orbit,
+  .hero-code-mark,
+  .hero-cross {
+    display: none;
+  }
   .about-grid,
   .projects-grid {
     grid-template-columns: 1fr;
@@ -648,6 +653,19 @@ footer {
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 18px;
+  }
+  .contact-links .button-primary {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  .contact-links .button-primary:hover {
+    background: transparent;
+    color: var(--text);
+    transform: none;
   }
   footer {
     gap: 15px;
