@@ -174,14 +174,19 @@ h1 em {
 }
 .hero-note {
   position: absolute;
-  right: 4%;
-  bottom: 112px;
+  z-index: 2;
+  right: 145px;
+  top: 268px;
+  bottom: auto;
   display: grid;
   gap: 8px;
-  width: 170px;
+  width: 300px;
+  padding: 14px 18px;
+  text-align: left;
   color: var(--muted);
   font-family: var(--mono);
   font-size: 0.72rem;
+  background: var(--bg);
 }
 .hero-note strong {
   font-family: var(--sans);
@@ -201,13 +206,13 @@ h1 em {
 .orbit-one {
   width: 590px;
   height: 590px;
-  right: -170px;
+  right: 0;
   top: 25px;
 }
 .orbit-two {
   width: 420px;
   height: 420px;
-  right: -85px;
+  right: 85px;
   top: 110px;
   border-color: rgba(167, 139, 250, 0.12);
 }
@@ -514,6 +519,7 @@ footer {
   }
   .hero-note {
     right: 0;
+    top: auto;
     bottom: 50px;
   }
   .hero-orbit {
@@ -678,13 +684,16 @@ footer {
 }
 .hero-code-mark {
   position: absolute;
-  right: 12%;
-  top: 43%;
+  right: 185px;
+  top: 168px;
   display: grid;
   gap: 6px;
+  width: 220px;
+  justify-items: center;
   color: rgba(196, 181, 253, 0.72);
   font-family: var(--mono);
-  transform: rotate(-8deg);
+  transform: none;
+  text-align: center;
 }
 .hero-code-mark span {
   font-size: 2.2rem;
@@ -695,6 +704,7 @@ footer {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
+  white-space: nowrap;
 }
 @keyframes orbit-spin {
   to {
