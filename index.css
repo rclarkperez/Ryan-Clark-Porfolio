@@ -15,12 +15,14 @@
 html {
   scroll-behavior: smooth;
 }
+html,
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
   font-size: 16px;
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -508,7 +510,7 @@ footer {
 }
 @media (max-width: 800px) {
   .page-shell {
-    width: min(100% - 40px, 1180px);
+    width: min(1180px, calc(100% - 40px));
   }
   .hero {
     min-height: 600px;
