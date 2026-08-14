@@ -913,6 +913,14 @@ footer {
   }
 }
 
+@media (max-width: 800px) {
+  .hero-orbit,
+  .hero-code-mark,
+  .hero-cross {
+    display: none !important;
+  }
+}
+
 h1 > span {
   display: inline-block;
   line-height: 0.9;
