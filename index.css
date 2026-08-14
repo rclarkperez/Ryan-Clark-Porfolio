@@ -574,6 +574,10 @@ footer {
   .hero-intro {
     font-size: 0.9rem;
   }
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
   .hero-note {
     left: 0;
     right: auto;
@@ -590,14 +594,24 @@ footer {
   .hero-note strong {
     font-size: 0.72rem;
   }
+  .hero-orbit,
+  .hero-code-mark,
+  .hero-cross {
+    display: none;
+  }
   .content-section {
     padding: 83px 0;
   }
   .capability-strip {
-    gap: 19px;
+    display: flex;
+    gap: 10px 16px;
+    min-height: 0;
+    padding: 18px 0;
+    white-space: normal;
+    flex-wrap: wrap;
   }
   .capability-strip b:before {
-    margin-right: 19px;
+    margin-right: 16px;
   }
   .project-info {
     padding: 23px 19px 14px;
